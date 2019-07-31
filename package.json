@@ -1,25 +1,26 @@
 {
   "name": "grafana-plugin-template-webpack-typescript",
   "version": "1.0.0",
-  "description": "Some description",
+  "description": "A template for producing Grafana plugins for Grafana 6+",
   "main": "dist/module",
   "scripts": {
     "build": "webpack"
   },
   "keywords": [],
-  "author": "Alexey Velikiy",
-  "license": "MIT",
-  "repository": "https://github.com/CorpGlory/grafana-plugin-template-webpack-typescript",
+  "author": "Jon Schneider",
+  "license": "Apache",
+  "repository": "https://github.com/jkschneider/grafana-plugin-template-webpack-typescript",
   "devDependencies": {
-    "@types/grafana": "git+https://git@github.com/CorpGlory/types-grafana.git",
-    "babel-core": "^6.26.0",
-    "babel-loader": "^7.1.2",
-    "babel-preset-env": "^1.6.0",
-    "copy-webpack-plugin": "^4.0.1",
+    "@babel/core": "7.4.3",
+    "@babel/preset-env": "7.4.2",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.3.3",
+    "@grafana/ui": "^6.3.0",
+    "babel-loader": "8.0.5",
+    "copy-webpack-plugin": "^5.0.4",
     "loader-utils": "^1.1.0",
-    "webpack": "^3.6.0",
-    "ts-loader": "^2.3.7",
-    "typescript": "^2.4.2"
-  },
-  "dependencies": {}
+    "ts-loader": "5.3.3",
+    "typescript": "3.4.1",
+    "webpack": "4.29.6"
+  }
 }
