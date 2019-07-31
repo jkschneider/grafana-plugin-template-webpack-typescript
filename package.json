@@ -15,12 +15,15 @@
     "@babel/preset-env": "7.4.2",
     "@babel/preset-react": "7.0.0",
     "@babel/preset-typescript": "7.3.3",
-    "@grafana/ui": "^6.3.0",
     "babel-loader": "8.0.5",
     "copy-webpack-plugin": "^5.0.4",
     "loader-utils": "^1.1.0",
     "ts-loader": "5.3.3",
     "typescript": "3.4.1",
     "webpack": "4.29.6"
+  },
+  "dependencies": {
+    "@grafana/data": "^6.3.0-alpha.32",
+    "@grafana/ui": "^6.3.0-alpha.32"
   }
 }
