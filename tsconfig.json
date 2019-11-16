@@ -24,6 +24,7 @@
     "pretty": true,
     "jsx": "react",
     "module": "esnext",
+    "compileOnSave": true,
   },
   "include": [
     "./src/**/*.ts"
